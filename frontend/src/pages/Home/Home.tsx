@@ -1,4 +1,5 @@
 import CloudComponent from "../../components/CloudComponent/CloudComponent";
+import FeaturesComponent from "../../components/FeaturesComponent/FeaturesComponent";
 import SkillineComponent from "../../components/SkillineComponent/SkillineComponent";
 import "./Home.css";
 
@@ -30,6 +31,7 @@ const Home = () => {
       </div>
       <CloudComponent />
       <SkillineComponent />
+      <FeaturesComponent />
     </div>
   );
 };

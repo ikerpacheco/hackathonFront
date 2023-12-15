@@ -6,12 +6,17 @@ const CloudComponent = () => {
     <div className="softwareSectionContainer">
       <div className="trustedCompaniesContainer">
         <h4 className="trustedText">Trusted by 5000+ Companies Worldwide</h4>
+        <img
+          src={require("../../media/Companies.png")}
+          alt=""
+          style={{ width: "80%", marginTop: "3vh", marginBottom: "5vh" }}
+        />
       </div>
       <div className="softwareContainer">
         <h2 className="AllInOneText">
           All-In-One <span className="spanTitle">Cloud Software.</span>
         </h2>
-        <p className="descriptionSoftwareText">
+        <p className="toDoDescription">
           Skilline is one powerful online software suite that combines all the
           tools needed to run a successful school or office.
         </p>
