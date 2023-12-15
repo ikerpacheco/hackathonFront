@@ -1,8 +1,9 @@
 .arrowButton {
   width: 20%;
-  margin-right: -0.45vw;
+  margin-right: -0.35vw;
   height: 100%;
   border: 1px solid #f48c06;
+  border-style: solid none solid solid;
   border-radius: 100%;
   display: flex;
   justify-content: center;

@@ -23,7 +23,9 @@ const CloudComponent = () => {
       </div>
       <div className="cardsContainer">
         <div className="card">
-          <div className="round" />
+          <div className="round">
+            <img src={require("../../media/invoice.png")} alt="" />
+          </div>
           <div className="cardInfo">
             <h2 className="titleCard">
               Online Billing, Invoicing, & Contracts
@@ -35,7 +37,9 @@ const CloudComponent = () => {
           </div>
         </div>
         <div className="card">
-          <div className="round" style={{ backgroundColor: "#F48C06" }} />
+          <div className="round" style={{ backgroundColor: "#F48C06" }}>
+            <img src={require("../../media/calendar.png")} alt="" />
+          </div>
           <div className="cardInfo">
             <h2 className="titleCard">Easy scheduling & Attendance tracking</h2>
             <p className="descriptionCard">
@@ -45,7 +49,9 @@ const CloudComponent = () => {
           </div>
         </div>
         <div className="card">
-          <div className="round" style={{ backgroundColor: "#29B9E7" }} />
+          <div className="round" style={{ backgroundColor: "#29B9E7" }}>
+            <img src={require("../../media/users.png")} alt="" />
+          </div>
           <div className="cardInfo">
             <h2 className="titleCard" style={{ marginTop: "5vh" }}>
               Customer Tracking

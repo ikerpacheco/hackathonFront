@@ -55,6 +55,9 @@
 .round {
   width: 10vh;
   height: 10vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   background-color: #5b72ee;
   border-radius: 100%;
   margin-top: -5vh;
