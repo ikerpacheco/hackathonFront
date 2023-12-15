@@ -1,6 +1,8 @@
 import CloudComponent from "../../components/CloudComponent/CloudComponent";
 import FeaturesComponent from "../../components/FeaturesComponent/FeaturesComponent";
+import IntegrationsComponent from "../../components/IntegrationsComponent/IntegrationsComponent";
 import SkillineComponent from "../../components/SkillineComponent/SkillineComponent";
+import TestimonialsComponent from "../../components/TestimonialsComponent/TestimonialsComponent";
 import "./Home.css";
 
 const Home = () => {
@@ -32,6 +34,8 @@ const Home = () => {
       <CloudComponent />
       <SkillineComponent />
       <FeaturesComponent />
+      <IntegrationsComponent />
+      <TestimonialsComponent />
     </div>
   );
 };

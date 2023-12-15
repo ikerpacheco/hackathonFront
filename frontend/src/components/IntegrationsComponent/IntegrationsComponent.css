@@ -1,0 +1,26 @@
+.integrationsContainer {
+  margin-top: 20vh;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.titleIntegrationsContainer {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+
+.line {
+  width: 3vw;
+  height: 0.1vh;
+  background-color: #2f327d;
+  margin-right: 1vh;
+}
+
+.IntegrationsTitle {
+  font-weight: 300;
+  color: #2f327d;
+}

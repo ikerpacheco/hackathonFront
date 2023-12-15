@@ -1,0 +1,10 @@
+.arrowButton {
+  width: 20%;
+  margin-right: -0.45vw;
+  height: 100%;
+  border: 1px solid #f48c06;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
