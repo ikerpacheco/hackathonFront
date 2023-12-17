@@ -1,6 +1,8 @@
 import CloudComponent from "../../components/CloudComponent/CloudComponent";
 import FeaturesComponent from "../../components/FeaturesComponent/FeaturesComponent";
+import FooterComponent from "../../components/FooterComponent/FooterComponent";
 import IntegrationsComponent from "../../components/IntegrationsComponent/IntegrationsComponent";
+import LatestNewsComponent from "../../components/LatestNewsComponent/LatestNewsComponent";
 import SkillineComponent from "../../components/SkillineComponent/SkillineComponent";
 import TestimonialsComponent from "../../components/TestimonialsComponent/TestimonialsComponent";
 import "./Home.css";
@@ -36,6 +38,8 @@ const Home = () => {
       <FeaturesComponent />
       <IntegrationsComponent />
       <TestimonialsComponent />
+      <LatestNewsComponent />
+      <FooterComponent />
     </div>
   );
 };

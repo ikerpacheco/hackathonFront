@@ -1,0 +1,31 @@
+.footerContainer {
+  width: 100%;
+  background-color: #252641;
+  margin-top: 5vh;
+  margin-bottom: -2vh;
+  padding-bottom: 5vh;
+}
+
+.borderInput {
+  border: 1px solid #696984;
+  width: 15%;
+  border-radius: 25px;
+  height: 2.5vh;
+  background-color: transparent;
+  color: #696984;
+  padding-left: 1vw;
+  margin-right: 2vh;
+}
+
+.subscribeButton {
+  width: 7%;
+  height: 3vh;
+  background-color: #f48c06;
+  border: none;
+  border-radius: 25px;
+  color: white;
+  font-size: 0.8vw;
+  font-weight: 600;
+  cursor: pointer;
+  background-color: rgba(84, 90, 231, 1);
+}
