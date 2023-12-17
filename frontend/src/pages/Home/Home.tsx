@@ -13,7 +13,7 @@ const Home = () => {
     <div className="page">
       <div className="background">
         <Navbar />
-        <div className="roundBackground" />
+        <div className="roundBackground"></div>
         <div className="content">
           <div className="leftSide">
             <div className="infoContainer">
@@ -32,7 +32,13 @@ const Home = () => {
               </div>
             </div>
           </div>
-          <div className="rightSide"></div>
+          <div className="rightSide">
+            <img
+              className="header-image"
+              src={require("../../media/header-pic.png")}
+              alt="undraw-Online-learning-re-e9q1"
+            />
+          </div>
         </div>
       </div>
       <CloudComponent />
