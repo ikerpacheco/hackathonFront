@@ -1,9 +1,11 @@
 import "./Home.css";
+import Navbar from "./components/Navbar/Navbar";
 
 const Home = () => {
   return (
     <div className="page">
       <div className="background">
+        <Navbar />
         <div className="roundBackground" />
         <div className="content">
           <div className="leftSide">
