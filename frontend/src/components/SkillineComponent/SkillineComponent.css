@@ -1,0 +1,79 @@
+.skillineCardsContainer {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  width: 70%;
+}
+
+.container {
+  width: 100%;
+  margin-top: 5vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.learnMoreButton {
+  color: #696984;
+  text-decoration: underline;
+}
+
+.toDoContainer {
+  width: 80%;
+  display: flex;
+  text-align: left;
+  justify-content: space-between;
+}
+
+.leftSideContainer {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+
+.toDoTitle {
+  font-size: 2vw;
+  font-weight: 700;
+  width: 80%;
+  color: #2f327d;
+}
+
+.toDoDescription {
+  font-size: 1vw;
+  color: #696984;
+  line-height: 3vh;
+}
+
+.toDoImg {
+  width: 600px;
+  height: 100%;
+  border-radius: 25px;
+}
+
+.circle {
+  width: 5vh;
+  height: 5vh;
+  background-color: #f4b767;
+  border-radius: 100%;
+  position: absolute;
+  z-index: -1;
+}
+
+.emptyButton {
+  width: 10vh;
+  height: 5vh;
+  border: none;
+  display: flex;
+  background-color: transparent;
+  cursor: pointer;
+}
+
+.decorationsImg {
+  margin-bottom: -5vh;
+  width: 85%;
+  border-radius: 25px;
+  position: absolute;
+  z-index: -1;
+}

@@ -72,7 +72,7 @@
 
 .descriptionText {
   width: 50%;
-  color: #464646;
+  color: #696984;
   font-size: 0.9vw;
 }
 
@@ -106,15 +106,54 @@
   color: #252641;
 }
 
-.softwareSectionContainer {
-  height: 100vh;
-  width: 100%;
+.skillineCard {
+  width: 450px;
+  height: 300px;
+  border-radius: 25px;
+  background-color: rgba(23, 27, 65, 0.45);
+  opacity: 0.9;
   display: flex;
+  flex-direction: column;
   justify-content: center;
+  align-items: center;
 }
 
-.trustedText {
-  letter-spacing: 0.1vh;
-  color: rgba(105, 105, 132, 1);
-  font-weight: 500;
+.borderButton {
+  border: 2px solid white;
+  background-color: transparent;
+  border-radius: 50px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  font-size: 18px;
+}
+
+.blueButton {
+  border: none;
+  background-color: rgba(35, 189, 238, 0.9);
+  border-radius: 50px;
+  width: 200px;
+  height: 60px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  color: white;
+  font-weight: 400;
+  z-index: 1;
+  font-size: 18px;
+}
+
+.instructorsImg {
+  width: 450px;
+  height: 300px;
+  position: absolute;
+  object-fit: contain;
+  border-radius: 25px;
+  z-index: -1;
 }

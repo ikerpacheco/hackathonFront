@@ -1,3 +1,10 @@
+import CloudComponent from "../../components/CloudComponent/CloudComponent";
+import FeaturesComponent from "../../components/FeaturesComponent/FeaturesComponent";
+import FooterComponent from "../../components/FooterComponent/FooterComponent";
+import IntegrationsComponent from "../../components/IntegrationsComponent/IntegrationsComponent";
+import LatestNewsComponent from "../../components/LatestNewsComponent/LatestNewsComponent";
+import SkillineComponent from "../../components/SkillineComponent/SkillineComponent";
+import TestimonialsComponent from "../../components/TestimonialsComponent/TestimonialsComponent";
 import "./Home.css";
 import Navbar from "./components/Navbar/Navbar";
 
@@ -28,9 +35,13 @@ const Home = () => {
           <div className="rightSide"></div>
         </div>
       </div>
-      <div className="softwareSectionContainer">
-        <h4 className="trustedText">Trusted by 5000+ Companies Worldwide</h4>
-      </div>
+      <CloudComponent />
+      <SkillineComponent />
+      <FeaturesComponent />
+      <IntegrationsComponent />
+      <TestimonialsComponent />
+      <LatestNewsComponent />
+      <FooterComponent />
     </div>
   );
 };
